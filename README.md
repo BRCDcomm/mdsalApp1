@@ -327,7 +327,7 @@ mvn clean install
 1. Verify that the log contains lines in it from ExampleApp by entering this command in the Karaf console
 
 	```bash
-	log:details |grep xam
+	log:display |grep xam
 	```
 
 You should see output something like this:
