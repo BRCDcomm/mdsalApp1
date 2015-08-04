@@ -153,9 +153,9 @@ public class ExampleappImpl implements BindingAwareConsumer, ExampleappService {
 
 }
 ```
-1.  Modify ./exampleapp-impl/src/main/java/org/opendaylight/yang/gen/v1/urn/opendaylight/params/xml/ns/yang/exampleapp/impl/rev150616/ExampleAppModule.java to register RPC
+1.  Modify ./exampleapp-impl/src/main/java/org/opendaylight/yang/gen/v1/urn/opendaylight/params/xml/ns/yang/exampleapp/impl/rev150617/ExampleAppModule.java to register RPC
 
-Replace the contents of the file exampleapp-impl/src/main/java/org/opendaylight/yang/gen/v1/urn/opendaylight/params/xml/ns/yang/exampleapp/impl/rev150616/ExampleAppModule.java with the following.
+Replace the contents of the file exampleapp-impl/src/main/java/org/opendaylight/yang/gen/v1/urn/opendaylight/params/xml/ns/yang/exampleapp/impl/rev150617/ExampleAppModule.java with the following.
 
 ```java
 package org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.exampleapp.impl.rev150617;
