@@ -1,0 +1,21 @@
+module exampleapp {
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:exampleapp:api";
+    prefix "exampleapp-api";
+
+    revision "2015-06-17" {
+        description "Initial revision of exampleapp model";
+    }
+    rpc example-app {
+        input {
+            leaf bandwidth {
+                type uint32;
+            }
+        }
+        output {
+            leaf bandwidth {
+                type uint32;
+            }
+        }
+    }
+}

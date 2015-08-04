@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.opendaylight.controller</groupId>
+    <artifactId>sal-parent</artifactId>
+    <version>1.1.2-Helium-SR2</version>
+  </parent>
+
+  <groupId>com.elbrys.sdn</groupId>
+  <artifactId>exampleapp</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>exampleapp-api</module>
+    <module>exampleapp-impl</module>
+    <module>exampleapp-config</module>
+    <module>exampleapp-features</module>
+  </modules>
+
+  <properties>
+    <checkstyle.skip>true</checkstyle.skip>
+  </properties>
+  
+<repositories>
+  <repository>
+    <id>opendaylight-mirror</id>
+    <name>opendaylight-mirror</name>
+    <layout>default</layout>
+    <url>http://nexus.opendaylight.org/content/repositories/public/</url>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
+</repositories>
+
+  <scm>
+    <connection>scm:git:ssh://git.opendaylight.org:29418/controller.git</connection>
+    <developerConnection>scm:git:ssh://git.opendaylight.org:29418/controller.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL</url>
+  </scm>
+</project>
