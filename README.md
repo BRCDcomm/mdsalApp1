@@ -297,7 +297,7 @@ mvn clean install
 1. copy ~/.m2/repository/com/elbrys/sdn/exampleapp-features/1.0.0-SNAPSHOT/exampleapp-features-1.0.0-SNAPSHOT-features.xml to deploy folder in BVC
 
 	```bash
-	cp ~/.m2/repository/com/elbrys/sdn/exampleapp-features/1.0.0-SNAPSHOT/exampleapp-features-1.0.0-SNAPSHOT-features.xml
+	cp ~/.m2/repository/com/elbrys/sdn/exampleapp-features/1.0.0-SNAPSHOT/exampleapp-features-1.0.0-SNAPSHOT-features.xml /opt/bvc/controller/deploy
 	```
 
 1. run OpenDaylight (Brocade SDN Controller)
